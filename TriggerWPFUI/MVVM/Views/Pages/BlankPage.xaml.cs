@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TriggerWPFUI.MVVM.Views
+namespace TriggerWPFUI.MVVM.Views.Pages
 {
     /// <summary>
     /// Interaction logic for BlankPage.xaml

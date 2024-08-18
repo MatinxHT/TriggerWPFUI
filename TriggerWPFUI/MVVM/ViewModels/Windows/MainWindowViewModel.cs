@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TriggerWPFUI.MVVM.Views;
+using TriggerWPFUI.MVVM.Views.Pages;
 using Wpf.Ui.Controls;
 
 namespace TriggerWPFUI.MVVM.ViewModels.Windows

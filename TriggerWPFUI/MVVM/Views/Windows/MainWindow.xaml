@@ -16,7 +16,7 @@
     ResizeMode="NoResize"
     WindowStyle="None"
     mc:Ignorable="d">
-    <Grid Background="Gray">
+    <Grid Background="Black">
 
         <Border CornerRadius="15" />
         <ui:NavigationView
