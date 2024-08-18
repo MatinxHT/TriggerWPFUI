@@ -1,15 +1,15 @@
 # TriggerWPFUI
 
 ## Project Title
-A Quick Reference for Designing a Windows 11 Style WPF Application
+Quick Reference for Designing a Windows 11 Style WPF Application
 
 ## Introduction
-This program serves as a quick reference for designing a Windows 11 style WPF application. It demonstrates the integration of modern UI elements and navigation structures using the [lepo's WPF-UI](https://github.com/lepoco/wpfui) framework, while adhering to the MVVM pattern via the Community Toolkit.
+This project provides a quick reference for designing a Windows 11 style WPF application. It showcases how to integrate modern UI elements and navigation structures using the [lepoco's WPF-UI](https://github.com/lepoco/wpfui) framework, while adhering to the MVVM pattern with the CommunityToolkit.
 
 ## Features
-- WPFUI Framework Setup: Illustrates the structure and components for building applications with the WPFUI framework.
-- Navigation Interface: Demonstrates how to implement and manage navigation views seamlessly.
-- [CommunityToolkit MVVM](https://github.com/CommunityToolkit/MVVM-Samples): Utilizes CommunityToolkit to enforce the MVVM pattern, promoting clean separation of concerns.
+- **WPFUI Framework Setup**: Demonstrates the structure and key components for building applications using the WPFUI framework.
+- **Navigation Interface**: Shows how to seamlessly implement and manage navigation views.
+- **[CommunityToolkit MVVM](https://github.com/CommunityToolkit/MVVM-Samples)**: Enforces the MVVM pattern using CommunityToolkit, ensuring a clean separation of concerns.
 
 ## Expectations
-- Use Microsoft.Extensions.DependencyInjection
+- Utilizes Microsoft.Extensions.DependencyInjection
