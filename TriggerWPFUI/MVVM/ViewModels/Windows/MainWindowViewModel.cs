@@ -33,7 +33,8 @@ namespace TriggerWPFUI.MVVM.ViewModels.Windows
                 {
                     new NavigationViewItem("ItemA", SymbolRegular.TextFont24, typeof(BlankPage)),
                     new NavigationViewItem("ItemB", SymbolRegular.Color24, typeof(BlankPage))
-                }
+                },
+                TargetPageType = typeof(BlankPage)
             }
             ];
 

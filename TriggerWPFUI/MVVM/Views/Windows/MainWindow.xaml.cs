@@ -17,8 +17,7 @@ namespace TriggerWPFUI.Views.Windows
     /// </summary>
     public partial class MainWindow : Window
     {
-        MainWindowViewModel ViewModel = new();
-        public MainWindow()
+        public MainWindow(MainWindowViewModel ViewModel)
         {
             InitializeComponent();
             DataContext = ViewModel;
