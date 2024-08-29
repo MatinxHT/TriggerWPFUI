@@ -20,6 +20,7 @@
 
         <Border CornerRadius="15" />
         <ui:NavigationView
+            x:Name="RootNavigationView"
             Padding="42,0,42,0"
             BreadcrumbBar="{Binding ElementName=BreadcrumbBar}"
             EnableDebugMessages="True"

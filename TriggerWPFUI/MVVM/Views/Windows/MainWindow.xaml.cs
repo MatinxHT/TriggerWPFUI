@@ -9,6 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using TriggerWPFUI.MVVM.ViewModels.Windows;
+using Wpf.Ui;
 
 namespace TriggerWPFUI.Views.Windows
 {
@@ -17,10 +18,11 @@ namespace TriggerWPFUI.Views.Windows
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow(MainWindowViewModel ViewModel)
+        public MainWindow(IPageService pageService, MainWindowViewModel ViewModel)
         {
-            InitializeComponent();
             DataContext = ViewModel;
+            InitializeComponent();
+            RootNavigationView.SetPageService(pageService);
         }
     }
 }

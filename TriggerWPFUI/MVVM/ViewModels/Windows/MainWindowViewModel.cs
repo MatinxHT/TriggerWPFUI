@@ -15,10 +15,9 @@ namespace TriggerWPFUI.MVVM.ViewModels.Windows
 {
     public partial class MainWindowViewModel : ObservableObject
     {
-        private readonly IServiceProvider _serviceProvider;
-        public MainWindowViewModel(IServiceProvider serviceProvider)
+        public MainWindowViewModel()
         {
-            _serviceProvider = serviceProvider;
+
         }
 
         [ObservableProperty]
