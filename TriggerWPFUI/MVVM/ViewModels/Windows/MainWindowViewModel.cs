@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -14,8 +15,10 @@ namespace TriggerWPFUI.MVVM.ViewModels.Windows
 {
     public partial class MainWindowViewModel : ObservableObject
     {
-        public MainWindowViewModel()
+        private readonly IServiceProvider _serviceProvider;
+        public MainWindowViewModel(IServiceProvider serviceProvider)
         {
+            _serviceProvider = serviceProvider;
         }
 
         [ObservableProperty]
